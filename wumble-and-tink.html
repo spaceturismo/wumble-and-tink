@@ -158,7 +158,7 @@ const TAU=Math.PI*2;
 /* ================= renderer / scene ================= */
 const stage=$('#stage');
 const renderer=new THREE.WebGLRenderer({antialias:true});
-renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
+renderer.setPixelRatio(Math.min(devicePixelRatio||1,1.5));
 stage.appendChild(renderer.domElement);
 const scene=new THREE.Scene();
 const HORIZON=0xcdeff0;
